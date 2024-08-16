@@ -2,7 +2,6 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 
 import { Spotlight } from "./ui/Spotlight";
-import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 
 const Hero = () => {
@@ -52,14 +51,14 @@ const Hero = () => {
            *
            *  change md:text-6xl, add more responsive code
            */}
-          <TextGenerateEffect
-            words="Transformez votre projet web en Expérience Utilisateur Fluide "
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
-          />
-
-          <h2 className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl">
-            Bonjour 👋 Je suis Frédéric, spécialisé dans la <br/><b>création de sites internet professionnels et modernes.</b>
+          <h2 className="text-center text-[40px] md:text-5xl lg:text-6xl mt-5 mb-5 font-bold">
+            Transformez votre projet web en <span className="text-purple">Expérience Utilisateur Fluide</span> 
+            
           </h2>
+
+          <h3 className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl">
+            Bonjour 👋 Je suis Frédéric, spécialisé dans la <br/><b>création de sites internet professionnels et modernes.</b>
+          </h3>
 
           <a href="#about">
             <MagicButton
