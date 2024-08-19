@@ -1,5 +1,4 @@
 export const navItems = [
-  { name: "Accueil", link: "#" },
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Testimonials", link: "#testimonials" },
@@ -73,68 +72,72 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      title: "Site e-commerce professionnel",
+      des: 'Images du site générées par IA, SEO optimisé, notre site est dans les 5 premiers sur Google pour "tabac brut" ',
+      date: "12/07/2024",
       img: "/tabac-brut.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      iconLists: ["/wordpress.svg", "/css.svg", "/html.svg", "/google.svg", "/javascript.svg"],
+      link: "tabac-brut.com",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      title: "Site vitrine professionnel de la santé",
+      des: "Affichage des services, optimisation SEO, animations, design personnalisé.",
+      date: "09/07/2024",
+      img: "/aurelie-canva.png",
+      iconLists: ["/wordpress.svg", "/css.svg", "/html.svg", "/google.svg", "/javascript.svg"],
+      link: "aurelieverberckmoes.fr",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      title: "Site vitrine professionnel nettoyage de toiture",
+      des: "Affichage des services, optimisation SEO, contenus personnalisés, intégration d'images générées par IA.",
+      img: "/gpproclean.png",
+      date: "01/06/2024",
+      iconLists: ["/wordpress.svg", "/css.svg", "/html.svg", "/google.svg", "/javascript.svg"],
+      link: "gpproclean.fr",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      title: "Site vitrine professionnel sur-mesure",
+      des: "Intégration modèles 3D, animations personnalisées, design Figma, formulaire pour commande de pièces industrielles.",
+      date: "01/02/2024",
+      img: "/alcor.png",
+      iconLists: ["/wordpress.svg", "/css.svg", "/html.svg", "/google.svg", "/javascript.svg"],
+      link: "alcor-industrie.fr",
     },
   ];
   
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "J ai découvert Fred sur une demande de dépannage, puis lui ai confié l entière création de mon site marchand En 3 mots: réactivité, professionnalisme, créativité, donne lui les clés il s occupe de tout. Merci Fred, pour le beau site tabac-brut",
+      name: "David",
+      title: "Propriétaire de Tabac-Brut.com",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Fred est pro et réactif, en plus d'être compétant et efficace, c’est une personne qui sait être à l’écoute et s’adapter à vos besoin afin de mener au bout votre projet web.",
+      name: "Alexis Ton",
+      title: "Propriétaire de Gocanin.com",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "J'ai eu le plaisir de travailler avec Frédéric sur mon projet de site internet et je suis extrêmement satisfait de son professionnalisme. Il est sérieux, compétent et son travail est impeccable. Je recommande vivement ses services pour toute entreprise ou individu à la recherche d'un développeur fiable et talentueux.",
+      name: "Paul Guillot",
+      title: "Propriétaire de alcor-industrie.fr",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Frédéric est très à l'écoute de son client, et très disponible. Il m'a réalisé un site vraiment à mon image, je suis très satisfaite. Vous pouvez lui faire entièrement confiance pour la création de votre site.",
+      name: "Florence Foucras",
+      title: "Propriétaire de naturopathegrans.fr",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Fred m’a créé un site super Toujours à l’écoute et disponible Sérieux et très professionnel Je recommande",
+      name: "Tegy Penia",
+      title: "Propriétaire de couvreurpenia.fr",
     },
   ];
   

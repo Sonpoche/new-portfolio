@@ -22,6 +22,7 @@ const config = {
       center: true,
       padding: "2rem",
       screens: {
+        "2lg": "1025px",
         "2xl": "1400px",
       },
     },
