@@ -1,10 +1,10 @@
 import React from 'react'
 import { InfiniteMovingCards } from './ui/InfiniteMovingCards'
-import { companies, testimonials } from '@/data'
+import { testimonials } from '@/data'
 
 const Clients = () => {
   return (
-    <div className='py-20' id="testimonials">
+    <div className='py-20' id="avis">
       <h2 className='heading'>
         Avis de {' '}
         <span className='text-purple'> clients satisfaits</span>
