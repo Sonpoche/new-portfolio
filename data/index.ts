@@ -1,8 +1,10 @@
 export const navItems = [
-    { name: "A Propos", link: "#apropos" },
+
     { name: "Projets", link: "#projets" },
-    { name: "Avis", link: "#avis" },
+    { name: "Avis", link: "#avis" }, 
+    { name: "Tarifs", link: "#tarifs" },
     { name: "Contact", link: "#contact" },
+   
   ];
   
   export const gridItems = [
@@ -145,30 +147,43 @@ export const navItems = [
     {
       id: 1,
       title: "Abonnement Site Internet Professionnel",
-      subtitle:"A partir de",
+      subtitle:"à partir de",
       price: "50€",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      subprice: "TTC",
+      subprice2:"par",
+      subprice3:"mois",
+      desc: " Obtenez un site web professionnel avec maintenance à vie. Vitrine ou e-commerce, nous avons la solution qu'il vous faut !", 
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Site Internet Professionnel",
+      subtitle:"à partir de",
+      price: "1.000€",
+      subprice:"TTC",
+      desc: "Devenez propriétaire de votre site web (vitrine, one-page, e-commerce) avec 1 mois de maintenance offert et un référencement SEO optimisé.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Référencement SEO",
+      subtitle:"à partir de",
+      price: "80€",
+      subprice:"TTC",
+      desc: "Atteignez les meilleures positions sur les différents moteurs de recherche (Google, Bing, etc.).",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Corrections / Modifications site internet",
+      subtitle:"à l'heure",
+      price: "35€",
+      subprice: "Par",
+      subprice2:"Heure",
+      desc: "Des problèmes de responsivité, des erreurs intempestives, ou encore l'envie d'ajouter du nouveau contenu sur votre site internet ?",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },

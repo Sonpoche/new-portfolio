@@ -60,7 +60,7 @@ const Hero = () => {
             Bonjour 👋 Je suis Frédéric, spécialisé dans la <br/><b>création de sites internet professionnels et modernes.</b>
           </h3>
 
-          <a href="#about">
+          <a href="#apropos">
             <MagicButton
               title="Mes Compétences"
               icon={<FaLocationArrow />}

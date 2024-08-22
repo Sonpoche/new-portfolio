@@ -1,7 +1,9 @@
 import { workExperience } from '@/data'
 import React from 'react'
 import { Button } from './ui/MovingBorders'
-import { RiH4 } from 'react-icons/ri'
+import MagicButton from './ui/MagicButton'
+import { FaLocationArrow } from 'react-icons/fa6'
+
 
 const Experience = () => {
   return (
@@ -10,6 +12,15 @@ const Experience = () => {
         Tarifs création de <br/>
         <span className='text-purple'> site internet professionnel </span>
       </h2>
+      <div className='flex flex-col items-center lg:mt-2 mt-5'>
+      <a href="mailto:ragaignef@gmail.com">
+          <MagicButton
+            title="Entrons en contact"
+            icon={<FaLocationArrow />}
+            position="right"
+            
+          />
+        </a></div>
       <div className='w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10'>
         {workExperience.map((card) => (
             <Button
@@ -24,20 +35,22 @@ const Experience = () => {
                         <h3 className='text-center text-xl md:text-2xl font-bold'>
                             {card.title}
                         </h3>
-                        <p className='text-center text-sm md:text-xs font-bold mt-10'>
+                        <p className='text-center text-sm md:text-sm font-bold mt-10 text-purple'>
                             {card.subtitle}
                         </p>
-                        <p className='text-center text-xl md:text-6xl font-bold mt-2 flex flex-row items-center justify-center p-3 py-6 md:p-5 lg:p-10 gap-2'>
-                            {card.price} <span className='text-sm'>TTC <br/>  par <br/> mois</span>
+                        <p className='text-center text-6xl md:text-6xl font-bold flex flex-row items-center justify-center p-3 gap-2 text-purple'>
+                            {card.price} <span className='text-xs md:text-sm text-purple'>{card.subprice} <br/>  {card.subprice2} <br/> {card.subprice3}</span>
                         </p>
 
-                        <p className='text-start text-white-100 mt-3 font-semibold'>
+                        <p className=' text-white-100 mt-3 font-semibold text-center'>
                             {card.desc}
                         </p>
                     </div>
                 </div>
             </Button>
+            
         ))}
+ 
       </div>
     </div>
   )
