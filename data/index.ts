@@ -193,13 +193,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/Sonpoche",
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/instagram-icon.svg",
+      link: "https://www.instagram.com/webdevfred/",
     },
     {
       id: 3,
-      img: "/link.svg",
+      img: "/facebook-icon.svg",
+      link: "https://www.facebook.com/?locale=fr_FR",
     },
   ];
