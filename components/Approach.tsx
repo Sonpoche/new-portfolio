@@ -2,7 +2,7 @@ import { CardSpotlight } from "@/components/ui/card-spotlight";
 
 const Approach = () => {
   return (
-    <section className="w-full py-20">
+    <section className="w-full lg:py-20 py-15">
       <h2 className="heading">
             Mon approche pour <span className="text-purple"> vos projets</span>
         </h2>

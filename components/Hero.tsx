@@ -6,7 +6,7 @@ import MagicButton from "./ui/MagicButton";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36" id="home">
+    <div className="lg:pb-20 lg:pt-24 pt-15 pb-0 " id="home">
       
       {/**
        *  UI: Spotlights

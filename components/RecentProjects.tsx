@@ -50,7 +50,7 @@ const RecentProjects = () => {
                         </div>
 
                         <div className='flex justify-center items-center'>
-                            <p className='flex lg:text-xl md:text-xs text-sm text-purple'>Vérifier le site en direct</p>
+                            <p className='flex lg:text-xl md:text-xs text-sm text-purple'>Voir le site</p>
                             <FaLocationArrow className='ms-3' color='#cbacf9' />
                         </div>
                     </div>
