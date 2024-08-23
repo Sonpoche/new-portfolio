@@ -16,7 +16,7 @@ const Approach = () => {
       </div>
     
         <p className="text-neutral-300 mt-4 relative z-20 text-md">
-          Pour une <strong>création de site internet professionnel</strong> réussie, je prends le temps de comprendre vos besoins et objectifs, afin de vous offrir des solutions sur mesure et efficaces.
+          Pour une création de site internet professionnel réussie, je prends le temps de comprendre vos besoins et objectifs, afin de vous offrir des solutions sur mesure et efficaces.
         </p>
       
 

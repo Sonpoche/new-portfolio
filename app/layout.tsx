@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Création de Site Internet Professionnel | Webdevfred",
-  description: "Découvrez les services de Webdevfred pour la création de sites internet professionnels. Nous concevons des sites performants et sur mesure pour répondre à vos besoins.",
+  description: "Découvrez les services de Webdevfred pour la création de site internet professionnel. Je conçois des sites performants et sur mesure.",
   keywords: "création de site internet, site web professionnel, développement web, conception site internet, webdevfred",
   openGraph: {
     title: "Création de Site Internet Professionnel | Webdevfred",
@@ -46,7 +46,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <body className={inter.className}>
         <ThemeProvider
             attribute="class"
