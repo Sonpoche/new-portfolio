@@ -7,6 +7,7 @@ import MagicButton from "./ui/MagicButton";
 const Hero = () => {
   return (
     <div className="pb-20 pt-36" id="home">
+      
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -22,6 +23,7 @@ const Hero = () => {
         />
         <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="teal" />
       </div>
+    
 
       {/**
        *  UI: grid
@@ -42,6 +44,9 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+          <div className="w-full h-full items-center justify-center flex flex-col">
+          <img src="/logo.png" alt="logo" className="w-40 h-40 object-contain" />
+          </div>
           <h1 className="uppercase tracking-widest text-xs text-center text-white max-w-100">
           <b>Création de Site Internet Professionnel</b>
           </h1>

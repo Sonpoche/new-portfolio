@@ -12,7 +12,7 @@ const Footer = () => {
       {/* background grid */}
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <img
-          src="/footer-grid.svg"
+          src="/grid.svg"
           alt="grid"
           className="w-full h-full opacity-50 "
         />
@@ -20,7 +20,7 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h2 className="heading lg:max-w-[45vw]">
-          Prêt à propulser <span className="text-purple">votre</span> présence numérique au niveau supérieur ?
+          Prêt à <span className="text-purple">propulser 🚀</span> votre présence numérique au niveau supérieur ?
         </h2>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Contactez-moi dès aujourd'hui et discutons de comment je peux vous aider à atteindre vos objectifs.
@@ -34,6 +34,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
+      <img src="/logo.png" alt="logo" className="w-20 h-20 object-contain" />
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2024 Webdevfred
         </p>
