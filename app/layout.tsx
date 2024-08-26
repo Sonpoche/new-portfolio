@@ -34,7 +34,6 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  themeColor: "#00101A", // Adaptez la couleur à votre palette
   icons: {
     icon: "/favicon.ico", // Assurez-vous que le chemin est correct
   },

@@ -50,7 +50,7 @@ const Hero = () => {
           <h1 className="uppercase tracking-widest text-xs text-center text-white max-w-100">
           <b>Création de Site Internet Professionnel</b>
           </h1>
-
+          
           {/**
            *  Link: https://ui.aceternity.com/components/text-generate-effect
            *

@@ -1,24 +1,21 @@
-
 import { FaEnvelope } from "react-icons/fa6";
-
 import { socialMedia } from "@/data";
 import MagicButton from "./ui/MagicButton";
 import Link from "next/link";
 
-
 const Footer = () => {
   return (
-    <footer className="w-full pt-10 pb-10" id="contact">
+    <footer className="w-full pt-10 pb-10 relative z-10" id="contact">
       {/* background grid */}
-      <div className="w-full absolute left-0 -bottom-72 min-h-96">
+      <div className="w-full absolute left-0 -bottom-72 min-h-96 z-0">
         <img
           src="/grid.svg"
           alt="grid"
-          className="w-full h-full opacity-50 "
+          className="w-full h-full opacity-50"
         />
       </div>
 
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center relative z-10">
         <h2 className="heading lg:max-w-[45vw]">
           Prêt à <span className="text-purple">propulser 🚀</span> votre présence numérique au niveau supérieur ?
         </h2>
@@ -33,17 +30,19 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-between gap-6 items-center">
-      <img src="/logo.png" alt="logo" className="w-20 h-20 object-contain" />
+      <div className="flex mt-16 md:flex-row flex-col justify-between gap-6 items-center relative z-10">
+        <img src="/logo.png" alt="logo" className="w-20 h-20 object-contain" />
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2024 Webdevfred
         </p>
-        <p className="md:text-base text-sm md:font-normal font-light">
-          Mentions Légales
-        </p>
+        <Link href="/mentions-legales">
+          <span className="md:text-base text-sm md:font-normal font-light cursor-pointer">
+            Mentions Légales
+          </span>
+        </Link>
 
         <div className="flex items-center md:gap-3 gap-6">
-        {socialMedia.map((info) => (
+          {socialMedia.map((info) => (
             <Link key={info.id} href={info.link}>
               <div
                 key={info.id}
@@ -65,3 +64,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
