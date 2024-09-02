@@ -2,14 +2,15 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Création de Site Internet Professionnel | Webdevfred",
   description: "Découvrez les services de Webdevfred pour la création de site internet professionnel. Je conçois des sites performants et sur mesure.",
-  keywords: "création de site internet, site web professionnel, développement web, conception site internet, webdevfred",
+  keywords: "création de site internet,création de site internet professionnel, site web professionnel, développement web, conception site internet, webdevfred",
   openGraph: {
     title: "Création de Site Internet Professionnel | Webdevfred",
     description: "Webdevfred propose des solutions de création de sites internet sur mesure pour votre entreprise. Obtenez un site performant et optimisé.",
@@ -46,17 +47,33 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
+      <head>
+        {/* Script Google Analytics placé dans le head */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=G-YQ1LKK21QJ`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-YQ1LKK21QJ');
+          `}
+        </Script>
+      </head>
       <body className={inter.className}>
         <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem
-            disableTransitionOnChange
-          >
-            {children}
-          </ThemeProvider>
-          <SpeedInsights />
-          </body>
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
+        <SpeedInsights />
+      </body>
     </html>
   );
 }
