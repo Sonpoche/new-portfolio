@@ -1,5 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
+import { FaArrowRight } from "react-icons/fa6";
 
 const BlogCard = () => {
   return (
@@ -7,18 +8,58 @@ const BlogCard = () => {
       <div
         className={cn(
           "cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl mx-auto backgroundImage flex flex-col justify-between p-4",
-          "bg-[url(https://images.unsplash.com/photo-1544077960-604201fe74bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80)] bg-cover"
+          "bg-[url(/creation-de-site-internet-pour-paramedicaux.png)] bg-cover border-[2px] border-slate-800",
+          "transition-transform duration-500 ease-in-out hover:scale-105  hover:translate-y-4"
         )}
       >
-        <div className="absolute w-full h-full top-0 left-0 hover/card:bg-black-50 opacity-60"></div>
+        <div className="absolute w-full h-full top-0 left-0 bg-custom-gradient"></div>
         <div className="flex flex-row items-center space-x-4 z-10 ">
         </div>
         <div className="text">
-          <h1 className="font-bold text-xl md:text-2xl text-gray-50 relative z-10">
-            Métier
-          </h1>
+          <h2 className="font-bold text-xl md:text-2xl text-gray-50 relative z-10 flex flex-row items-center gap-2">
+            Paramédical <FaArrowRight className="h-4 w-4 cursor-pointer"  />
+          </h2>
           <p className="font-normal text-sm text-gray-50 relative z-10 my-4">
-            Mon guide pour la création de site internet pour Métier.
+            Mon guide pour la création de site internet pour paramédicaux.
+          </p>
+        </div>
+      </div>
+
+      <div
+        className={cn(
+          "cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl mx-auto backgroundImage flex flex-col justify-between p-4",
+          "bg-[url(/creation-de-site-internet-pour-artisan.jpg)] bg-cover object-center border-[2px] border-slate-800",
+          "transition-transform duration-500 ease-in-out hover:scale-105  hover:translate-y-4"
+        )}
+      >
+        <div className="absolute w-full h-full top-0 left-0 bg-custom-gradient"></div>
+        <div className="flex flex-row items-center space-x-4 z-10 ">
+        </div>
+        <div className="text">
+          <h2 className="font-bold text-xl md:text-2xl text-gray-50 relative z-10 flex flex-row items-center gap-2">
+            Artisan <FaArrowRight className="h-4 w-4 cursor-pointer"  />
+          </h2>
+          <p className="font-normal text-sm text-gray-50 relative z-10 my-4">
+            Mon guide pour la création de site internet pour artisan.
+          </p>
+        </div>
+      </div>
+      <div
+      className={cn(
+        "relative cursor-pointer overflow-hidden h-96 rounded-md shadow-xl mx-auto flex flex-col justify-between p-4",
+        "bg-[url('/creation-de-site-internet-pour-ecommerce.jpg')] bg-cover object-center border-[2px] border-slate-800 ",
+        "transition-transform duration-500 ease-in-out hover:scale-105  hover:translate-y-4"
+      )}
+    >
+        <div className="absolute w-full h-full top-0 left-0 bg-custom-gradient"></div>
+        <div className="flex flex-row items-center space-x-4 z-10 ">
+        </div>
+        <div className="text">
+          <h2 className="font-bold text-xl md:text-2xl text-gray-50 relative z-10 flex flex-row items-center gap-2">
+            E-commerce <FaArrowRight className="h-4 w-4 cursor-pointer"  />
+          </h2>
+          <p className="font-normal text-sm text-gray-50 relative z-10 my-4">
+            Mon guide pour la création de site internet pour artisan.
           </p>
         </div>
       </div>

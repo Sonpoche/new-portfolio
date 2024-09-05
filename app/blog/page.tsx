@@ -4,6 +4,8 @@ import BlogCard from "@/components/BlogCard";
 import Footer from "@/components/Footer";
 
 import HeroBlog from "@/components/HeroBlog";
+import PinnedBlog from "@/components/PinnedBlog";
+import { TimelineDemo } from "@/components/Timeline";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 
@@ -49,6 +51,8 @@ export default function Home() {
       <FloatingNav navItems={navItems}/>
       <HeroBlog />
       <BlogCard />
+      <TimelineDemo />
+      <PinnedBlog />
       <Footer  />
       </div>      
     </main>

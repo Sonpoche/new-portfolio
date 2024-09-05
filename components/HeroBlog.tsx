@@ -1,8 +1,5 @@
-import { FaLocationArrow } from "react-icons/fa6";
-
-
 import { Spotlight } from "./ui/Spotlight";
-import MagicButton from "./ui/MagicButton";
+
 
 const Hero = () => {
   return (
@@ -30,8 +27,8 @@ const Hero = () => {
             <img src="/logo.png" alt="logo" className="w-60 h-60 object-contain" />
           </a>
           </div>
-          <h1 className="lg:text-left text-center text-[40px] md:text-5xl lg:text-6xl mt-5 mb-5 font-bold">
-            Guide et Astuce pour créer un site internet <span className="text-purple">spécifique à chaque métier.</span> 
+          <h1 className="lg:text-left text-center text-[34px] md:text-5xl lg:text-6xl mt-5 mb-5 font-bold">
+            Guide et Astuce pour créer un Site Internet <span className="text-purple">Spécifique à chaque Métier.</span> 
           </h1>
 
           <p className="lg:text-left text-center md:tracking-wider mb-4 text-sm md:text-md lg:text-lg">

@@ -1,9 +1,8 @@
 export const navItems = [
-
-    { name: "Projets", link: "#projets" },
-    { name: "Avis", link: "#avis" }, 
-    { name: "Tarifs", link: "#tarifs" },
+    { name: "Accueil", link: "/" },
+    { name: "Portfolio", link: "#projets" },
     { name: "Contact", link: "#contact" },
+    { name: "Blog", link: "/blog" },
    
   ];
   
@@ -186,6 +185,16 @@ export const navItems = [
       desc: "Des problèmes de responsivité, des erreurs intempestives, ou encore l'envie d'ajouter du nouveau contenu sur votre site internet ?",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
+    },
+
+  ];
+
+  export const BlogCard = [
+    {
+      id: 5,
+      title: "Créer un Site Internet en 2024 : Les Meilleures Pratiques et Conseils",
+      desc: "Passionné du web. Spécialiste de WordPress et ReactJs, du webdesign et du référencement SEO. Développeur indépendant, mon entreprise Webdevfred c'est proposer des services et un conseil de qualité avec les coûts et l'agilité d'un freelance.",
+      className: "md:col-span-2",
     },
   ];
   
