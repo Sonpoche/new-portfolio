@@ -1,12 +1,13 @@
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
 import Link from "next/link";
+import Image from "next/image";
 
 export function TimelineDemo() {
   const data = [
     
     {
-      title: "Septembre 2024",
+      title: "Artisanat",
       content: (
         <div>
           <h3 className="text-lg md:text-2xl mb-4 text-black dark:text-white max-w-7xl">
@@ -23,8 +24,8 @@ export function TimelineDemo() {
           <div className="grid grid-cols-2 gap-4">
 
           <a href="https://dasilva-toiture.fr" target="_blank">
-            <img
-              src="/dasilva.png"
+            <Image
+              src="/dasilva.webp"
               alt="création de site internet pour couvreur à aix-en-provence"
               width={500}
               height={500}
@@ -33,8 +34,8 @@ export function TimelineDemo() {
             </a>
 
             <a href="https://couvreurpenia.fr" target="_blank">
-            <img
-              src="/couvreur-penia.png"
+            <Image
+              src="/couvreur-penia.webp"
               alt="création de site internet pour couvreur à saint-paul-de-vence"
               width={500}
               height={500}
@@ -43,8 +44,8 @@ export function TimelineDemo() {
             </a>
 
             <a href="https://gpproclean.fr" target="_blank">
-            <img
-              src="/gpproclean.png"
+            <Image
+              src="/gpproclean.webp"
               alt="création de site internet pour nettoyage de toiture/façade à saint-paul-de-vence"
               width={500}
               height={500}
@@ -57,7 +58,7 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "Août 2024",
+      title: "Paramédical",
       content: (
         <div>
           <h3 className="text-lg md:text-2xl mb-4 text-black dark:text-white max-w-7xl">
@@ -78,7 +79,7 @@ export function TimelineDemo() {
           </Link>
           <div className="grid grid-cols-2 gap-4">
             <a href="https://cigala-psychomotricien.fr" target="_blank">
-            <img
+            <Image
               src="/cigala.webp"
               alt="création de site internet pour psychomotricien"
               width={500}
@@ -88,7 +89,7 @@ export function TimelineDemo() {
             </a>
 
             <a href="https://aurelieverberckmoes.fr" target="_blank">
-            <img
+            <Image
               src="/aurelie-canva.webp"
               alt="création de site internet pour psychanalyste"
               width={500}
@@ -102,7 +103,7 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "Juillet 2024",
+      title: "E-commerce",
       content: (
         <div>
           <h3 className="text-lg md:text-2xl mb-4 text-black dark:text-white max-w-7xl">
@@ -111,14 +112,14 @@ export function TimelineDemo() {
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
           Créez une <strong>boutique en ligne performante</strong> avec mon guide spécialisé pour les sites e-commerce. Découvrez les meilleures pratiques pour optimiser la performance de votre site, attirer plus de clients, et augmenter vos ventes. Chaque étape est pensée pour garantir que votre e-commerce se distingue dans un marché compétitif.
           </p>
-          <a href="/">
+          <Link href="/blog/comment-creer-un-site-e-commerce">
           <p className="text-neutral-800 dark:text-[#2C90AA] underline underline-offset-4 text-xs md:text-sm font-bold mb-8">
-            Découvrez comment créer un site internet e-commerce efficace. ( A Venir  ...)
+            Découvrez comment créer un site internet e-commerce efficace.
             </p>
-          </a>
+          </Link>
           <div className="grid grid-cols-2 gap-4">
           <a href="https://tabac-brut.com" target="_blank">
-            <img
+            <Image
               src="/tabac-brut.webp"
               alt="création de site internet e-commerce vente de tabac brut"
               width={500}
@@ -128,7 +129,7 @@ export function TimelineDemo() {
           </a>
 
           <a href="https://you-boost.com" target="_blank">
-            <img
+            <Image
               src="/you-boost.webp"
               alt="création de site internet e-commerce vente de followers"
               width={500}
@@ -138,7 +139,7 @@ export function TimelineDemo() {
           </a>
 
           <a href="https://labougiegourmande.fr" target="_blank">
-            <img
+            <Image
               src="/bougie-gourmande.webp"
               alt="création de site internet e-commerce vente de bougie"
               width={500}

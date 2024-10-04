@@ -2,6 +2,7 @@ import { projects } from '@/data'
 import React from 'react'
 import { PinContainer } from './ui/3d-pin'
 import { FaLocationArrow } from 'react-icons/fa6'
+import Image from 'next/image'
 
 const RecentProjects = () => {
   const filteredProjects = projects.filter(({ id }) => id <= 4)
@@ -18,9 +19,14 @@ const RecentProjects = () => {
                 <PinContainer title={link} href={link}>
                     <div className='relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden h-[30vh] lg:h-[35vh] sm:h-[30vh]  mb-10'>
                         <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#00101A]'>
-                            <img src='/bg.png' alt="bg-img" />
+                            <Image src='/bg.png' alt="bg-img" 
+                            width={128} // Par exemple 128px
+                            height={128} // Par exemple 128px
+                            />
                         </div>
-                            <img 
+                            <Image
+                            width={128} // Par exemple 128px
+                            height={128} // Par exemple 128px 
                             src={img}
                             alt={title}
                             className='z-10 absolute bottom-0 object-contain rotate-6 lg:rotate-0 lg:object-cover w-full h-full'
@@ -45,8 +51,11 @@ const RecentProjects = () => {
                                 ' style={{
                                     transform:`translateX(-${5 * index * 2}px)`
                                     }}>
-                                    <img src={icon} alt={icon}
-                                    className='p-2' />
+                                    <Image src={icon} alt={icon}
+                                    className='p-2' 
+                                    width={128} // Par exemple 128px
+                                    height={128} // Par exemple 128px
+                                    />
                                 </div>
                             ))}
                         </div>

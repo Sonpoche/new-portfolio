@@ -1,6 +1,7 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import { Spotlight } from "./ui/Spotlight";
 import MagicButton from "./ui/MagicButton";
+import Image from "next/image";
 
 const HeroVar = ({ 
   logoSrc = "/logo.png", 
@@ -25,7 +26,10 @@ const HeroVar = ({
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <div className="w-full h-full items-center justify-center flex flex-col">
-            <img src={logoSrc} alt="logo" className="w-40 h-40 object-contain" />
+            <Image src={logoSrc} alt="logo" className="w-40 h-40 object-contain"
+            width={128} // Par exemple 128px
+            height={128} // Par exemple 128px
+            />
           </div>
           <h1 className="uppercase tracking-widest text-xs text-center text-white max-w-100">
             <b>{mainTitle}</b>

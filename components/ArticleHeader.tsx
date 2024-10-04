@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import MagicButton from './ui/MagicButton';
 import { FaLocationArrow } from 'react-icons/fa6';
 import { IoCopyOutline } from 'react-icons/io5';
+import Image from 'next/image';
 
 type ArticleHeaderProps = {
   title: string;
@@ -48,9 +49,11 @@ const ArticleHeader: React.FC<ArticleHeaderProps> = ({
           {description}
         </h2>
         <div className="w-full flex flex-col lg:flex-row gap-10">
-          <img
+          <Image
             src={imageUrl}
             alt={altText}
+            width={128} // Par exemple 128px
+            height={128} // Par exemple 128px
             className="object-cover rounded-md w-full lg:w-[50%]"
           />
           <div className="flex flex-col">

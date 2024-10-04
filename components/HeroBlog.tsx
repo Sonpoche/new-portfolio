@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Spotlight } from "./ui/Spotlight";
 
 
@@ -24,7 +25,10 @@ const Hero = () => {
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <div className="w-full h-full lg:items-start items-center flex flex-col">
           <a href="/">
-            <img src="/logo.png" alt="logo" className="w-40 h-40 object-contain" />
+            <Image src="/logo.png" alt="logo" className="w-40 h-40 object-contain" 
+            width={128} // Par exemple 128px
+            height={128} // Par exemple 128px
+            />
           </a>
           </div>
           <h1 className="lg:text-left text-center text-[34px] md:text-5xl lg:text-6xl mt-5 mb-5 font-bold">

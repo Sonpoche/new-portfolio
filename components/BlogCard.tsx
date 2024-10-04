@@ -48,10 +48,11 @@ const BlogCard = () => {
         </div>
       </div>
       </Link>
+      <Link href="/blog/comment-creer-un-site-e-commerce">
       <div
       className={cn(
         "relative cursor-pointer overflow-hidden h-96 rounded-md shadow-xl mx-auto flex flex-col justify-between p-4",
-        "bg-[url('/creation-de-site-internet-pour-ecommerce.jpg')] bg-cover object-center border-[2px] border-slate-800 ",
+        "bg-[url('/comment-creer-un-site-e-commerce.jpg')] bg-cover object-center border-[2px] border-slate-800 ",
         "transition-transform duration-500 ease-in-out hover:scale-105  hover:translate-y-4"
       )}
     >
@@ -63,11 +64,11 @@ const BlogCard = () => {
             E-commerce <FaArrowRight className="h-4 w-4 cursor-pointer"  />
           </h2>
           <p className="font-normal text-sm text-gray-50 relative z-10 my-4">
-            Mon guide pour la création de site internet pour artisan.
+            Mon guide pour la création de site internet pour e-commerce.
           </p>
         </div>
       </div>
-      
+      </Link>
     </div>
   );
 }

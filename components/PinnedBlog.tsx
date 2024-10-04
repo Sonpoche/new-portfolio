@@ -1,26 +1,27 @@
+import Image from 'next/image';
 import React from 'react';
 
 const cards = [
   {
     id: 1,
-    image: '/limportance-dune-maintenance-dun-site-internet.jpg',
+    image: '/limportance-dune-maintenance-dun-site-internet.webp',
     title: "Maintenance d'un Site Internet",
     description: 'Pourquoi la maintenance de votre site internet est essentielle.',
     link: '/blog/maintenance-site-internet',
   },
   {
     id: 2,
-    image: '/quel-est-le-cout-de-lhebergement-dun-site-internet.jpeg',
+    image: '/quel-est-le-cout-de-lhebergement-dun-site-internet.webp',
     title: "Hébergement d'un Site Internet",
     description: 'Quel est son coût et comprendre son fonctionnement ?',
     link: '/blog/hebergement-site-internet',
   },
   {
     id: 3,
-    image: '/role-du-webmaster-et-pourquoi-en-engager-un.jpg',
+    image: '/role-du-webmaster.webp',
     title: 'Le Rôle du Webmaster',
     description: 'Pourquoi engager un professionnel pour son projet ?',
-    link: '/blog/role-webmaster',
+    link: '/blog/le-role-indispensable-du-webmaster',
   },
   {
     id: 4,
@@ -35,6 +36,13 @@ const cards = [
     title: 'Paramédicaux',
     description: 'Mon guide pour la création de site internet pour paramédicaux.',
     link: '/blog/creation-de-site-internet-pour-paramedical',
+  },
+  {
+    id: 6,
+    image: '/comment-creer-un-site-e-commerce.jpg',
+    title: 'E-commerce',
+    description: 'Mon guide pour la création de site internet e-commerce.',
+    link: '/blog/comment-creer-un-site-e-commerce',
   },
   // Ajoute autant de cartes que tu veux ici
 ];
@@ -68,10 +76,12 @@ const PinnedBlog: React.FC = () => {
             className="relative w-full lg:h-[350px] md:h-[300px] h-[250px] bg-gray-800 text-white rounded-lg overflow-hidden shadow-lg border border-slate-800"
             aria-label={card.title}  // Ajoute une description pour l'accessibilité
           >
-            <img
+            <Image
               src={card.image}
               alt={card.title}
               className="w-full h-full object-cover"
+              width={128} // Par exemple 128px
+              height={128} // Par exemple 128px
             />
             <div className="absolute inset-0 bg-custom-gradient flex flex-col justify-end p-4">
               <h3 className="md:text-lg text-md font-bold mb-2">{card.title}</h3>

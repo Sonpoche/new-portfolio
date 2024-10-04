@@ -2,16 +2,19 @@ import { FaEnvelope } from "react-icons/fa6";
 import { socialMedia } from "@/data";
 import MagicButton from "./ui/MagicButton";
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <footer className="w-full pt-10 pb-10 relative z-10" id="contact">
       {/* background grid */}
       <div className="w-full absolute left-0 -bottom-72 min-h-96 z-0">
-        <img
+        <Image
           src="/grid.svg"
           alt="grid"
           className="w-full h-full opacity-50"
+          width={128} // Par exemple 128px
+          height={128} // Par exemple 128px
         />
       </div>
 
@@ -31,7 +34,10 @@ const Footer = () => {
         </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between gap-6 items-center relative z-10">
-        <img src="/logo.png" alt="logo" className="w-20 h-20 object-contain" />
+        <Image src="/logo.png" alt="logo" className="w-20 h-20 object-contain" 
+        width={128} // Par exemple 128px
+        height={128} // Par exemple 128px
+        />
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2024 Webdevfred
         </p>
@@ -48,7 +54,7 @@ const Footer = () => {
                 key={info.id}
                 className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
               >
-                <img
+                <Image
                   src={info.img}
                   alt={info.id.toString()}
                   width={20}

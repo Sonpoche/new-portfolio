@@ -16,13 +16,13 @@ import Image from "next/image";
 
  
 export const metadata: Metadata = {
-    title: "Création de site internet pour Artisan | Webdevfred",
-    description: "Guide de création de site internet pour Artisan : conseils sur l'ergonomie, et le contenu pour attirer plus de clients et valoriser votre savoir-faire.",
-    keywords: "création de site internet pour artisan,artisan,création de site internet professionnel, site web professionnel, développement web, conception site web, WebDevFred",
+    title: "Le Rôle Indispensable du Webmaster | Webdevfred",
+    description: "Le rôle indispensable du webmaster ne se limite pas à la simple maintenance technique d’un site web. Il va bien au-delà et englobe la gestion des contenus.",
+    keywords: "Le Rôle Indispensable du Webmaster,webmaster,création de site internet professionnel, site web professionnel, développement web, conception site web, WebDevFred",
     openGraph: {
-      title: "Création de site internet pour Artisan | Webdevfred",
-      description: "Guide de création de site internet pour Artisan : conseils sur l'ergonomie, et le contenu pour attirer plus de clients et valoriser votre savoir-faire.",
-      url: "https://webdevfred.fr/blog/creation-de-site-internet-pour-artisan",
+      title: "Le Rôle Indispensable du Webmaster | Webdevfred",
+      description: "Le rôle indispensable du webmaster ne se limite pas à la simple maintenance technique d’un site web. Il va bien au-delà et englobe la gestion des contenus.",
+      url: "https://webdevfred.fr/blog/le-role-indispensable-du-webmaster",
       type: "website",
       images: [
         {
@@ -35,8 +35,8 @@ export const metadata: Metadata = {
     },
     twitter: {
       card: "summary_large_image",
-      title: "Création de site internet pour Artisan | Webdevfred",
-      description: "Guide de création de site internet pour Artisan : conseils sur l'ergonomie, et le contenu pour attirer plus de clients et valoriser votre savoir-faire.",
+      title: "Le Rôle Indispensable du Webmaster | Webdevfred",
+      description: "Le rôle indispensable du webmaster ne se limite pas à la simple maintenance technique d’un site web. Il va bien au-delà et englobe la gestion des contenus.",
       images: "https://webdevfred.fr/logo.png", // Assurez-vous que l'image correspond à vos besoins
     },
     robots: {
@@ -48,9 +48,9 @@ export const metadata: Metadata = {
     },
   };
 
-  export default function Artisan() {
+  export default function Webmaster() {
     // Sélectionnez l'article avec l'ID 1
-    const article = articles.find((article) => article.id === 2);
+    const article = articles.find((article) => article.id === 4);
   
     if (!article) return <p>Article not found</p>;
   
@@ -77,12 +77,11 @@ export const metadata: Metadata = {
                     <Image src="/logo.png" alt="logo" className="w-40 h-40 object-contain" 
                     width={128} // Par exemple 128px
                     height={128} // Par exemple 128px
-                    
                     />
                   </a>
                 </div>
                 <h1 className="lg:text-left text-center text-[34px] md:text-5xl lg:text-5xl mt-5 mb-5 font-bold">
-                  Création de Site Internet pour <span className="text-purple">Artisan</span>
+                  Le Rôle Indispensable du <span className="text-purple">Webmaster</span>
                 </h1>
               </div>
             </div>
@@ -99,7 +98,7 @@ export const metadata: Metadata = {
             listItems={article.listItems}
             email={article.email}
           />
-          <ArticleContent contentType="content2" />  {/* Affiche dummyContent */}
+          <ArticleContent contentType="content4" />  {/* Affiche dummyContent */}
           <PinnedBlog />
           <Footer />
         </div>
