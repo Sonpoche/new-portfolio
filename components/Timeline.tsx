@@ -152,6 +152,24 @@ export function TimelineDemo() {
         </div>
       ),
     },
+    {
+      title: "Comptable",
+      content: (
+        <div>
+          <h3 className="text-lg md:text-2xl mb-4 text-black dark:text-white max-w-7xl">
+          Création Site Internet <span className="text-purple">Expert Comptable 2025 </span>| Guide Complet
+          </h3>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <strong>La création d'un site internet pour expert-comptable</strong> est un projet stratégique qui nécessite une approche professionnelle et méthodique. Découvrez dans ce guide complet comment concevoir un site performant qui inspire confiance, met en valeur votre expertise, et vous permet d'attirer de nouveaux clients tout en respectant les règles déontologiques de la profession.
+          </p>
+          <Link href="/blog/comment-creer-un-site-e-commerce">
+          <p className="text-neutral-800 dark:text-[#2C90AA] underline underline-offset-4 text-xs md:text-sm font-bold mb-8">
+            Découvrez comment créer un site internet pour expert comptable efficace.
+            </p>
+          </Link>
+        </div>
+      ),
+    },
 
     
     

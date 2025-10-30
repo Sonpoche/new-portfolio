@@ -44,6 +44,13 @@ const cards = [
     description: 'Mon guide pour la création de site internet e-commerce.',
     link: '/blog/comment-creer-un-site-e-commerce',
   },
+  {
+    id: 7,
+    image: '/og-expert-comptable.webp',
+    title: 'Expert Comptable',
+    description: 'Découvrez comment créer un site internet pour expert comptable efficace.',
+    link: '/blog/creation-site-internet-expert-comptable',
+  },
   // Ajoute autant de cartes que tu veux ici
 ];
 

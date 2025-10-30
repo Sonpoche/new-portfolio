@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="w-full pt-10 pb-10 relative z-10" id="contact">
       {/* background grid */}
-      <div className="w-full absolute left-0 -bottom-72 min-h-96 z-0">
+      <div className="w-full absolute left-0 min-h-96 z-0">
         <Image
           src="/grid.svg"
           alt="grid"
@@ -64,6 +64,50 @@ const Footer = () => {
             </Link>
           ))}
         </div>
+      </div>
+      <hr className="my-2 h-0.5 border-t-0 bg-neutral-100 dark:bg-slate-800" />
+      <div className="flex mt-4 md:flex-col flex-col justify-between gap-2 md:items-start items-center relative z-10">
+      <Link href="/creation-de-site-internet-à-toulon">
+          <span className="md:text-sm text-xs md:font-bold font-semibold cursor-pointer text-slate-500 hover:text-purple">
+            Création de site internet à Toulon
+          </span>
+        </Link>
+        
+        <Link href="/creation-de-site-internet-var">
+          <span className="md:text-sm text-xs md:font-semibold font-normal cursor-pointer text-slate-500 hover:text-purple">
+            Création de site internet Var
+          </span>
+        </Link>
+        <Link href="/developpeur-web-var">
+          <span className="md:text-sm text-xs md:font-semibold font-normal cursor-pointer text-slate-500 hover:text-purple">
+            Développeur web Var
+          </span>
+        </Link>
+        <Link href="/developpeur-web-toulon">
+          <span className="md:text-sm text-xs md:font-semibold font-normal cursor-pointer text-slate-500 hover:text-purple">
+            Développeur web Toulon
+          </span>
+        </Link>
+        <Link href="/site-internet-à-saint-maximin-la-sainte-baume">
+          <span className="md:text-sm text-xs md:font-semibold font-normal cursor-pointer text-slate-500 hover:text-purple">
+            Site internet à Saint-Maximin-La-Sainte-Baume
+          </span>
+        </Link>
+        <Link href="/developpeur-web-saint-maximin-la-sainte-baume">
+          <span className="md:text-sm text-xs md:font-semibold font-normal cursor-pointer text-slate-500 hover:text-purple">
+            Développeur web Saint-Maximin-La-Sainte-Baume
+          </span>
+        </Link>
+        <Link href="/creation-de-site-internet-à-varages">
+          <span className="md:text-sm text-xs md:font-semibold font-normal cursor-pointer text-slate-500 hover:text-purple">
+            Création de site internet à Varages
+          </span>
+        </Link>
+        <Link href="/creation-de-site-internet-à-rians">
+          <span className="md:text-sm text-xs md:font-semibold font-normal cursor-pointer text-slate-500 hover:text-purple">
+            Création de site internet à Rians
+          </span>
+        </Link>
       </div>
     </footer>
   );

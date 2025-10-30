@@ -11,27 +11,27 @@ import { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-    title: "Création de site internet à Toulon | Webdevfred",
-    description: "Création de site internet à Toulon, Webdevfred pour la création de site internet professionnel. Je conçois des sites performants et sur mesure.",
-    keywords: "développeur web var,création de site internet à toulon,développeur web toulon,création de site internet professionnel, site web professionnel, développement web, conception site web, WebDevFred",
+    title: "Création de site internet à Rians | Webdevfred",
+    description: "Création de site internet à Rians, Webdevfred pour la création de site internet professionnel. Je conçois des sites performants et sur mesure.",
+    keywords: "développeur web var,création de site internet à rians,développeur web rians,création de site internet professionnel, site web professionnel, développement web, conception site web, WebDevFred",
     openGraph: {
-      title: "Création de site internet à Toulon | Webdevfred",
-      description: "Création de site internet à Toulon, Webdevfred pour la création de site internet professionnel. Je conçois des sites performants et sur mesure.",
-      url: "https://webdevfred.fr/creation-de-site-internet-à-toulon",
+      title: "Création de site internet à Rians | Webdevfred",
+      description: "Création de site internet à Rians, Webdevfred pour la création de site internet professionnel. Je conçois des sites performants et sur mesure.",
+      url: "https://webdevfred.fr/creation-de-site-internet-à-rians",
       type: "website",
       images: [
         {
           url: "https://webdevfred.fr/logo.png", // Remplacez par le bon chemin vers votre image
           width: 1200,
           height: 630,
-          alt: "Création de site internet à Toulon",
+          alt: "Création de site internet à Rians",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: "Création de site internet à Toulon | Webdevfred",
-      description: "Création de site internet à Toulon, Webdevfred pour la création de site internet professionnel. Je conçois des sites performants et sur mesure.",
+      title: "Création de site internet à Rians | Webdevfred",
+      description: "Création de site internet à Rians, Webdevfred pour la création de site internet professionnel. Je conçois des sites performants et sur mesure.",
       images: "https://webdevfred.fr/logo.png", // Assurez-vous que l'image correspond à vos besoins
     },
     robots: {
@@ -43,16 +43,16 @@ export const metadata: Metadata = {
     },
   };
 
-export default function CreationSiteInternetToulon() {
+export default function CreationSiteInternetRians() {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
       <div className="max-w-7xl w-full">
       <FloatingNav navItems={navItems}/>
       <HeroVar 
           logoSrc="/logo.png"
-          mainTitle="Création de site internet à Toulon"
+          mainTitle="Création de site internet à Rians"
           subTitle="Transformez votre projet web en Expérience Utilisateur Fluide"
-          description="Bonjour 👋 Je suis Frédéric, Développeur Web Var, Création de site internet à Toulon."
+          description="Bonjour 👋 Je suis Frédéric, Développeur Web Var, Création de site internet à Rians."
           buttonText="Mes Compétences"
           buttonLink="#apropos"
         />

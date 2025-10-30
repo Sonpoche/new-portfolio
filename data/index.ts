@@ -73,6 +73,15 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "Site e-commerce Cop4Rock",
+      des:  'Site e-commerce pour la boutique la plus tendance de genève, SEO et SEA optimisé, design personnalisé',
+      date: "20/11/2024",
+      img: "/cop4rock.webp",
+      iconLists: ["/wordpress.svg", "/css.svg", "/html.svg", "/google.svg", "/javascript.svg"],
+      link: "cop4rock.com",
+    },
+    {
+      id: 2,
       title: "Site vitrine exterminations nuisibles",
       des: 'Images du site générées par IA, SEO optimisé, design personnalisé, site one-page ',
       date: "12/07/2024",
@@ -81,16 +90,16 @@ export const navItems = [
       link: "zero-nuisibles83.fr",
     },
     {
-      id: 2,
+      id: 3,
       title: "Site e-commerce professionnel",
-      des: 'Images du site générées par IA, SEO optimisé, notre site est dans les 5 premiers sur Google pour "tabac brut" ',
-      date: "12/07/2024",
-      img: "/tabac-brut.webp",
+      des: 'Design personnalisé, SEO optimisé ',
+      date: "05/01/2025",
+      img: "/ominot.png",
       iconLists: ["/wordpress.svg", "/css.svg", "/html.svg", "/google.svg", "/javascript.svg"],
-      link: "tabac-brut.com",
+      link: "ominot.fr",
     },
     {
-      id: 3,
+      id: 4,
       title: "Site vitrine professionnel psychanalyste",
       des: "Affichage des services, optimisation SEO, animations, design personnalisé.",
       date: "09/07/2024",
@@ -99,7 +108,7 @@ export const navItems = [
       link: "aurelieverberckmoes.fr",
     },
     {
-      id: 4,
+      id: 5,
       title: "Site vitrine professionnel nettoyage de toiture",
       des: "Affichage des services, optimisation SEO, contenus personnalisés, intégration d'images générées par IA.",
       img: "/gpproclean.webp",
@@ -108,7 +117,7 @@ export const navItems = [
       link: "gpproclean.fr",
     },
     {
-      id: 5,
+      id: 6,
       title: "Site vitrine professionnel sur-mesure",
       des: "Intégration modèles 3D, animations personnalisées, design Figma, formulaire pour commande de pièces industrielles.",
       date: "01/02/2024",
@@ -117,7 +126,7 @@ export const navItems = [
       link: "alcor-industrie.fr",
     },
     {
-      id: 6,
+      id: 7,
       title: "Site vitrine professionnel psychomotricien",
       des: "Affichage des services, optimisation SEO, animations, design personnalisé.",
       date: "02/01/2024",
@@ -177,7 +186,7 @@ export const navItems = [
       id: 2,
       title: "Site Internet Professionnel",
       subtitle:"à partir de",
-      price: "1.000€",
+      price: "500€",
       subprice:"TTC",
       desc: "Devenez propriétaire de votre site web (vitrine, one-page, e-commerce) avec 1 mois de maintenance offert et un référencement SEO optimisé.",
       className: "md:col-span-2", // change to md:col-span-2

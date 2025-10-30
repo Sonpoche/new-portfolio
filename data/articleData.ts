@@ -70,7 +70,7 @@ export const articles = [
         title: "Le Rôle Indispensable du Webmaster : Un Pilier Essentiel pour Tout Site Web",
         description:
           "Le rôle indispensable du webmaster ne se limite pas à la simple maintenance technique d’un site web. Il va bien au-delà et englobe la gestion des contenus, la sécurité, l'optimisation SEO.",
-        imageUrl: "/role-du-webmaster.jpg",
+        imageUrl: "/role-du-webmaster.webp",
         altText: "Le Rôle indispensable du Webmaster",
         subTitle: "Webdevfred : Le Rôle Indispensable du Webmaster ",
         additionalInfo: "Le monde numérique évolue à une vitesse fulgurante. À chaque coin d'internet, des milliers de sites web naissent chaque jour, tandis que d'autres tombent dans l'oubli.",
@@ -83,6 +83,27 @@ export const articles = [
           "Optimisation SEO.",
           "Formation à l'utilisation du site.",
           "Conseils personnalisés.",
+        ],
+        email: "ragaignef@gmail.com",
+      },
+      {
+        id: 5,
+        title: "Création Site Internet Expert Comptable : Guide Complet 2025",
+        description:
+          "La création d'un site internet pour expert-comptable est un projet stratégique qui nécessite une approche professionnelle et méthodique.",
+        imageUrl: "/og-expert-comptable.webp",
+        altText: "Création Site Internet Expert Comptable 2025",
+        subTitle: "Création Site Internet Expert Comptable",
+        additionalInfo: "Découvrez dans ce guide complet comment concevoir un site performant qui inspire confiance, met en valeur votre expertise, et vous permet d'attirer de nouveaux clients tout en respectant les règles déontologiques de la profession.",
+        contactText: "Parlez moi de votre projet de création de site internet, recevez mes conseils et un devis gratuit.",
+        listItems: [
+          "Pourquoi créer un site internet pour expert-comptable ?",
+          "Types de cabinets et besoins spécifiques",
+          "Éléments essentiels d'un site comptable",
+          "Aspects techniques et sécurité",
+          "Stratégie SEO et visibilité",
+          "Budget et investissement",
+          "FAQ"
         ],
         email: "ragaignef@gmail.com",
       },
